@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lt_fr_skill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Game Development"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="Unity 3D, C#"
+        android:background="@color/colorBlueLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="Mobile Development"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="Android Studio, Java"
+        android:background="@color/colorBlueLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="Web Development"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="Html, Css, JavaScript, Php, Node.js"
+        android:background="@color/colorBlueLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:id="@+id/bt_skill_back"
+        android:text="Kembali"
+        android:background="@color/colorPrimary"
+        style="@style/bt_back_style" />
+
+</LinearLayout>

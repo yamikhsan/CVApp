@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lt_fr_hobi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Coding"
+        android:background="@color/colorGreenLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="Music"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="Film"
+        android:background="@color/colorGreenLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="Comic"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="Game"
+        android:background="@color/colorGreenLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:id="@+id/bt_hobi_back"
+        android:text="Kembali"
+        android:background="@color/colorGreen"
+        style="@style/bt_back_style" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lt_fr_pendidikan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="SD"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="SD Negeri Bojong 03"
+        android:background="@color/colorYellowLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="SMP"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="SMP Negeri 10 Tangerang"
+        android:background="@color/colorYellowLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="SMA"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="SMA Negeri 10 Tangerang"
+        android:background="@color/colorYellowLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:id="@+id/bt_pendidikan_back"
+        android:text="Kembali"
+        android:background="@color/colorYellow"
+        style="@style/bt_back_style" />
+
+</LinearLayout>

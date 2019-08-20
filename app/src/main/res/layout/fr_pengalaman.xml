@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lt_fr_pengalaman"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="PT ACL"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="Bagian Operasional"
+        android:background="@color/colorPurpleLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:text="PT Indomarco Prismatama"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="Bagian Operasional"
+        android:background="@color/colorPurpleLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        android:id="@+id/bt_pengalaman_back"
+        android:text="Kembali"
+        android:background="@color/colorPurple"
+        style="@style/bt_back_style" />
+
+</LinearLayout>

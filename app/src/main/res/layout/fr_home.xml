@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lt_fr_home"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/bt_datadiri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:src="@drawable/ic_account_box"
+                style="@style/img_home_style" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_regular"
+                android:text="Data Diri"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/bt_pendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/colorBlueLight"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                style="@style/img_home_style"
+                android:src="@drawable/ic_school"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_regular"
+                android:text="Pendidikan"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/bt_pengalaman"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                style="@style/img_home_style"
+                android:src="@drawable/ic_work"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_regular"
+                android:text="Pengalaman"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/bt_skill"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/colorBlueLight"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                style="@style/img_home_style"
+                android:src="@drawable/ic_developer_mode"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_regular"
+                android:text="Skill"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/bt_hobi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                style="@style/img_home_style"
+                android:src="@drawable/ic_headset"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_regular"
+                android:text="Hobi"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:id="@+id/btn_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_email_white"
+                    android:layout_marginHorizontal="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:fontFamily="@font/merriweather_regular"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_phone_iphone_white"
+                    android:layout_marginHorizontal="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"
+                    android:fontFamily="@font/merriweather_regular"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_place_white"
+                    android:layout_marginHorizontal="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Map"
+                    android:fontFamily="@font/merriweather_regular"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lt_fr_datadiri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Tempat Tanggal Lahir"
+        style="@style/tv_key_style" />
+
+    <TextView
+        android:text="Sragen, 13 Mei"
+        android:background="@color/colorRedLight"
+        style="@style/tv_value_style" />
+
+    <TextView
+        style="@style/tv_key_style"
+        android:text="Jenis Kelamin"/>
+
+    <TextView
+        style="@style/tv_value_style"
+        android:background="@color/colorRedLight"
+        android:text="Laki-Laki"/>
+
+    <TextView
+        style="@style/tv_key_style"
+        android:text="Agama"/>
+
+    <TextView
+        style="@style/tv_value_style"
+        android:background="@color/colorRedLight"
+        android:text="Islam"/>
+
+    <TextView
+        style="@style/tv_key_style"
+        android:text="Kewarganegaraan"/>
+
+    <TextView
+        style="@style/tv_value_style"
+        android:background="@color/colorRedLight"
+        android:text="Indonesia"/>
+
+    <TextView
+        android:id="@+id/bt_datadiri_back"
+        android:text="Kembali"
+        android:background="@color/colorRed"
+        style="@style/bt_back_style" />
+
+</LinearLayout>
